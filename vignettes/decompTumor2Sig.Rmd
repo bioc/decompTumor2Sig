@@ -128,7 +128,7 @@ CRAN packages:
 Bioconductor packages:
 
 `r Biocpkg("GenomicRanges")`, `r Biocpkg("GenomicFeatures")`,
-`r Biocpkg("GenomeInfoDb")`, 
+`r Biocpkg("Seqinfo")`, 
 `r Biocpkg("Biostrings")`, `r Biocpkg("BiocGenerics")`,
 `r Biocpkg("S4Vectors")`, `r Biocpkg("BSgenome.Hsapiens.UCSC.hg19")`,
 `r Biocpkg("TxDb.Hsapiens.UCSC.hg19.knownGene")`,

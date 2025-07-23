@@ -42,7 +42,7 @@
 #' 20(Suppl 4):152.\cr
 #' @importFrom GenomicRanges seqnames seqinfo makeGRangesFromDataFrame resize
 #' findOverlaps
-#' @importFrom GenomeInfoDb seqlengths
+#' @importFrom Seqinfo seqlengths
 #' @importFrom Biostrings getSeq reverseComplement
 #' @importFrom GenomicFeatures transcripts
 #' @importFrom S4Vectors queryHits subjectHits
@@ -181,8 +181,8 @@ buildGenomesFromMutationData <- function(snvs, numBases, type, trDir,
         setT <- GenomicRanges::seqnames(GenomicRanges::seqinfo(transcriptAnno))
         setRT <- setR[setR %in% setT]
 
-        if (!all(GenomeInfoDb::seqlengths(refGenome)[setRT] ==
-                 GenomeInfoDb::seqlengths(transcriptAnno)[setRT]
+        if (!all(Seqinfo::seqlengths(refGenome)[setRT] ==
+                 Seqinfo::seqlengths(transcriptAnno)[setRT]
                  )
             ) {
             stop(paste("Inconsistent reference sequence lengths indicate",

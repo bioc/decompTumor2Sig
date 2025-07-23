@@ -7,10 +7,10 @@ Imports: methods, Matrix, quadprog(>= 1.5-5), GenomicRanges, stats,
     GenomicFeatures, Biostrings, BiocGenerics, S4Vectors, plyr, utils, graphics,
     BSgenome.Hsapiens.UCSC.hg19, TxDb.Hsapiens.UCSC.hg19.knownGene,
     VariantAnnotation, SummarizedExperiment, ggseqlogo, gridExtra, data.table,
-    GenomeInfoDb, readxl
+    Seqinfo, readxl
 Suggests: knitr, rmarkdown, BiocStyle
-Version: 2.25.0
-Date: 2022-05-09
+Version: 2.25.1
+Date: 2025-07-22
 Encoding: UTF-8
 Authors@R: c(
     person("Rosario M.", "Piro", email = "rmpiro@gmail.com",

@@ -103,3 +103,7 @@ Changes in version 2.13.1 (2022-05-09)
 + Fix: corrected recognition of EstimatedParameters (from package pmsignature)
   objects obtained with the use of a background signature.
 + Fix: corrected internal scripts for production of external example data.
+
+Changes in version 2.28.1 (2026-07-21)
++ Fix: relpaced non existent default URL for readAlexandrovSignatures();
+  NOTE: in future versions, no default will be specified anymore!

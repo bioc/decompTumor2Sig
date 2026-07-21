@@ -65,7 +65,7 @@
 #' readAlexandrovSignatures(file)
 #' @param file (Mandatory) Can be a file name or an URL for download.
 #' Default:\cr
-#' "https://cancer.sanger.ac.uk/cancergenome/assets/signatures_probabilities.txt"
+#' "https://raw.githubusercontent.com/vanallenlab/deconstruct_sigs_py/refs/heads/master/deconstructSigs/data/signatures_probabilities.txt"
 #' (COSMIC signatures v2).
 #' @return A list of Alexandrov signatures that can be used for
 #' \code{decomposeTumorGenomes}. 
@@ -86,7 +86,8 @@
 #' @importFrom readxl read_excel excel_format
 #' @export readAlexandrovSignatures
 readAlexandrovSignatures <-
-    function(file=paste0("https://cancer.sanger.ac.uk/cancergenome/assets/",
+    function(file=paste0("https://raw.githubusercontent.com/vanallenlab/deconstruct_sigs_py/refs/heads/",
+			 "master/deconstructSigs/data/",
                          "signatures_probabilities.txt")) {
 
     # read a set of Alexandrov signatures from a tab-separated flat file in one

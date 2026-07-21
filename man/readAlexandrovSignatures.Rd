@@ -9,7 +9,7 @@ readAlexandrovSignatures(file)
 \arguments{
 \item{file}{(Mandatory) Can be a file name or an URL for download.
 Default:\cr
-"https://cancer.sanger.ac.uk/cancergenome/assets/signatures_probabilities.txt"
+"https://raw.githubusercontent.com/vanallenlab/deconstruct_sigs_py/refs/heads/master/deconstructSigs/data/signatures_probabilities.txt"
 (COSMIC signatures v2).}
 }
 \value{

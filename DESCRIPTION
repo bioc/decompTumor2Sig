@@ -9,7 +9,7 @@ Imports: methods, Matrix, quadprog(>= 1.5-5), GenomicRanges, stats, rlang,
     VariantAnnotation, SummarizedExperiment, ggseqlogo, gridExtra, data.table,
     GenomeInfoDb, readxl
 Suggests: knitr, rmarkdown, cosmicsig, BiocStyle
-Version: 3.0.0
+Version: 3.1.0
 Date: 2026-07-07
 Encoding: UTF-8
 Authors@R: c(
